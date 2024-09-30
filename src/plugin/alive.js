@@ -12,9 +12,18 @@ const alive = async (m, Matrix) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).toLowerCase() : '';
     if (['alive', 'uptime', 'runtime'].includes(cmd)) {
 
-  const uptimeMessage = `*DARK-SHADOW-MD Status Overview*
+  const uptimeMessage = `*Hellow I am Alive now👋*
 _________________________________________
+Hey, I'm DARK-SHADOW-MD , created by Pathum Malsara✨🍂
 
+I'm always here for help you. 😇 Love you forever ♥️
+
+Learn about how to create your own whatsapp bot? Follow below channel
+
+This is Your Log Number and This Message is Come After Successfully Connect Bot🎉
+
+© D A R K - S H A D O W
+_________________________________________
 *📆 ${days} Day*
 *🕰️ ${hours} Hour*
 *⏳ ${minutes} Minute*
@@ -36,6 +45,34 @@ _________________________________________
             display_text: "PING",
             id: `.ping`
           })
+        },
+        {
+          "name": "cta_url",
+          "buttonParamsJson": JSON.stringify({
+            display_text: "OWNER",
+            url: `https://wa.me/+94773416478?text=HI_Dark_Shadow_Owner👨‍💻`
+          })
+        },
+        {
+                  name: 'cta_url',
+                  buttonParamsJson: JSON.stringify({
+                    display_text: 'WA CHANNEL',
+                    url: 'https://whatsapp.com/channel/0029VacTVYIGOj9kr0GJzR1r',
+           })
+        },
+        {
+                  name: 'cta_url',
+                  buttonParamsJson: JSON.stringify({
+                    display_text: 'Click Here To Fork',
+                    url: 'https://github.com/dark-shadow-LK/Dark-Shadow-V1/fork',
+           })
+        },
+        {
+                  name: 'cta_url',
+                  buttonParamsJson: JSON.stringify({
+                    display_text: 'YT CHANNEL',
+                    url: 'https://youtube.com/@dark_shadow-bot?si=63aH4ud-TXRmyQy5',
+           }),
         }
         ];
 

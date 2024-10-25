@@ -1,5 +1,5 @@
 {
-  "name": "DARK-SHADOW-MD",
+  "name": "DARK- SHADOW-MD",
   "version": "10.8.1",
   "description": "DARK-SHADOW-MD latest multi device whatsapp bot",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "restart": "pm2 restart DARK-SHADOW-MD"
   },
   "keywords": ["dark-shadow-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "DARK-SHADOW",
+  "author": "dark-shadow",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
@@ -33,6 +33,7 @@
     "fluent-ffmpeg": "^2.1.3",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.2.0",
+    "gifted-dls": "^1.3.0",
     "google-it": "^1.6.4",
     "human-readable": "^0.2.1",
     "jimp": "^0.16.13",
